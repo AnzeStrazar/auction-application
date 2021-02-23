@@ -16,7 +16,7 @@ provider:
 
 resources: 
   Resources:
-    AuctionsTable: ${file(resoruces/AuctionsTable.yml):AuctionsTable}
+    AuctionsTable: ${file(resources/AuctionsTable.yml):AuctionsTable}
 
 functions:
   createAuction:
